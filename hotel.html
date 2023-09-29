@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<!DOCTYPE html>
-    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    
         <title>Modern Hotel</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                background-color: whitesmoke;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#rooms">Rooms</a></li>
-                    <li><a href="#dining">Dining</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div>
+            <button onclick="document.location='Home.html'" type="button" class="btn btn-primary">HOME  <span><i class="fa fa-home"></i></span></button>
+            <button onclick="document.location='Ourteam.html'" type="button" class="btn btn-primary">OURTEAM <span><i class="fa fa-group"></i></span> </button>
+            <button onclick="document.location='Location.html'" type="button" class="btn btn-primary">LOCATION <span><i class="fa fa-map-marker"></i></span> </button>
+            <button onclick="document.location='Contact.html'" type="button" class="btn btn-primary">CONTACT <i class="fa fa-envelope"></i> </button>
+            <button onclick="document.location='dining.html'" type="button" class="btn btn-primary">DINING<span> <i class="fa fa-utensils"></i></span>  </button>
+        </div>
     
         <section id="home">
             <center>
+                <br>
+                <img  src="images/hallway.jpg" alt=""
+                <hr>
             <h1>Welcome to the Modern Hotel</h1>
             <p>Your luxurious home away from home.</p>
             <a href="#rooms" class="cta-button">Explore Rooms</a>
@@ -32,36 +35,51 @@
         </section>
     
         <section id="rooms">
+            <center>
+                <br>
             <h2>Our Rooms</h2>
+            <br>
+            <h3>Deluxe Room</h3>
+            <p>Spacious and comfortable, with a view of the city.</p>
+
             <div class="room">
-                <img src="room1.jpg" alt="Room 1">
-                <h3>Deluxe Room</h3>
-                <p>Spacious and comfortable, with a view of the city.</p>
+                <img src="images/hotel 2.jpg" alt="Room 1">
+            </center>
             </div>
+            <br>
+            <center>
             <div class="room">
-                <img src="room2.jpg" alt="Room 2">
                 <h3>Executive Suite</h3>
                 <p>Luxurious suite with a private balcony and ocean view.</p>
+                <img src="images/hotel 4.jpg" alt="Room 2">
+            </center>
             </div>
-            <!-- More room listings here -->
+            
         </section>
     
         <section id="dining">
+            <center>
+                <br>
             <h2>Dining</h2>
             <p>Indulge in our exquisite culinary offerings.</p>
-            <!-- Dining information and images here -->
+            <img src="images/food.jpg" alt="">
+            </center>
+            
         </section>
     
         <section id="about">
+            <center>
+                <br>
             <h2>About Us</h2>
             <p>Discover the story behind the Modern Hotel.</p>
-            <!-- About Us information here -->
+        </center>
+            
         </section>
     
         <section id="contact">
             <h2>Contact Us</h2>
             <p>If you have any questions or inquiries, please contact us.</p>
-            <!-- Contact form or contact information here -->
+            
         </section>
     
         <footer>
@@ -69,10 +87,15 @@
         </footer>
     </body>
     </html>
-    , initial-scale=1.0">
+    
     <title>Document</title>
 </head>
 <body>
     
+    
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
